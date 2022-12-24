@@ -1,0 +1,131 @@
+INDEX FONTS:
+
+    1. DOMINI
+Representa la capa del domini. En aquest package trobem la implementacio de les classes principals i dels controladors.
+        Consulta
+        Document
+        IndexAutor
+        IndexDocumentsAutor
+        IndexExpressionsBooleanes
+        Usuari
+        1.1 CONTROLADORS
+En aquest package podem trobar la implementacio dels controladors.
+            CtrlConsulta
+            CtrlDocument
+            CtrlDomini
+            CtrlUsuari
+    2. DRIVERS
+En aquest package trobem el driver del controlador domini, que te agregats els altres tres controladors (usuari, document i consulta)
+        DriverCtrlDomini.class
+    3. EXCEPTION
+En aquest package trobem totes les excepcions creades per nosaltres que poden saltar a les classes del domini.
+        ExceptionAutorJaExisteix
+        ExceptionAutorNoExisteix
+        ExceptionCampsBuits
+        ExceptionCarregaDuplicada
+        ExceptionConsultaLimitParametres
+        ExceptionContrasenyaIncorrecte
+        ExceptionDirectoriNoCreat
+        ExceptionDirectoriNoEliminat
+        ExceptionDirNoTrobat
+        ExceptionDocumentJaExisteix
+        ExceptionDocumentNoExisteix
+        ExceptionExpressioBooleanaIncorrecte
+        ExceptionFormatNoValid
+        ExceptionIndexConsultaNoValid
+        ExceptionIO
+        ExceptionNoEnterValid
+        ExceptionNoSessioValida
+        ExceptionNotPrimaryKeys
+        ExceptionParametresErronis
+        ExceptionPasswordDiferents
+        ExceptionRutaNoDefinida
+        ExceptionSessioJaActiva
+        ExceptionSobreescriureFitxer
+        ExceptionTipusConsultaNull
+        ExceptionTitolJaExisteix
+        ExceptionUsuariJaExisteix
+        ExceptionUsuariNoExisteix
+    4. PERSISTENCIA
+En aquest package podem trobar tots els fitxers de les classes de la capa de persistencia.
+        ConsultaPersistencia
+        CtrlPersistencia
+        DocumentPersistencia
+        IndexPersistencia
+        Interpret
+        InterpretPROP
+        InterpretTXT
+        InterpretXML
+        IOFitxers
+        MYXMLHandler
+        UsuariPersistencia
+        4.1 accesObjects
+            ConsultaAO
+            DocumentAO
+            IndexAutorAO
+            IndexDocumentsAutorAO
+            IndexExpressionsBooleanesAO
+    4. PRESENTACIO
+Representa la capa de presentacio.
+        4.1 Imagen: conte totes les imatges que afegim a l'aplicacio
+        CtrlPresentacio
+        Main
+        PantallaCarregarDocument
+        PantallaDadesAutor
+        PantallaDadesEliminar
+        PantallaDadesModificar
+        PantallaDadesObrir
+        PantallaDadesPClau
+        PantallaDadesPrefix
+        PantallaDadesSemblants
+        PantallaEliminarUsuaris
+        PantallaIniciarSessio
+        PantallaLlistaAutorsPrefix
+        PantallaLlistar
+        PantallaLlistarExpressioBooleana
+        PantallaNovesDades
+        PantallaObrirDocument
+        PantallaPrincipal
+        PantallaRecuperarDocument
+        PantallaRegistrarUsuari
+    6. TEST
+En aquest package podem trobar tots els tests que hem utilitzat per comprovar que les nostres classes principals del domini i utils funcionessin correctament.
+        6.1 DOMINI
+En aquest package trobem tots els tests per les classes del domini.
+            TestConsulta
+            TestDocument
+            TestExpressioBooleana
+            TestIndexAutor
+            TestIndexDocumentsAutor
+            TestIndexExpressionsBooleanes
+            TestUsuari
+        6.2 PERSISTENCIA
+En aquest package trobem tots els test de la capa de persistencia.
+            TestConsultaPersistencia
+            TestDocumentPersistenica
+            TestIndexPersistencia
+            TestIOFitxers
+            TestUsuariPersistencia
+            6.2.1 stubs
+                ObjecteStub
+        6.3 UTILS
+En aquest package trobem tots els tests per les classes utils.
+            TestKeyP
+            TestNode
+            TestPairP
+            TestSortedValue
+            TestTree
+            TestTrie
+    7. UTILS
+En aquest package trobem totes les classes utils que hem fet servir per facilitar la implementacio de les classes del domini.
+        ConvertirAO
+        ExpressioBooleana
+        Format
+        KeyP
+        PairP
+        SortedValue
+        TipusConsulta
+        Tree
+        Trie
+
+Aquest directori tambe conte un Makefile per compilar i executar el driver.
