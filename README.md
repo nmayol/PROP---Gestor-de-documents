@@ -1,10 +1,10 @@
 # Gestor de documents #
 
 ## Membres: ##
-* Calaf Martí, Tomàs (tomas.calaf.marti@estudiantat.upc.edu)
-* Grau Dominguez, Paula (paula.grau@estudiantat.upc.edu)
-* Mayol Alcaraz, Neus (neus.mayol@estudiantat.upc.edu)
-* Vazquez Gonzalez, Joan (joan.vazquez.gonzalez@estudiantat.upc.edu)
+* Calaf Martí, Tomàs
+* Grau Dominguez, Paula
+* Mayol Alcaraz, Neus
+* Vazquez Gonzalez, Joan
 
 ## Instruccions execució terminal ##
 
