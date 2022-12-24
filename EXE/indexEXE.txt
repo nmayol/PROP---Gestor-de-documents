@@ -1,0 +1,35 @@
+INDEX EXE:
+
+DOCUMENTS RELLEVANTS DE LA PRIMERA ENTREGA:
+    1. test
+Aquest directori conte dos carpetes amb els tests i els pdf de documentacio de les classes del domini i utils.
+Tambe conte un joc de proves del driver del controlador domini.
+        1.1 domini
+Aquest directori conte els executables dels tests de la carpeta domini i els pdf amb la documentacio corresponent.
+            TestConsulta
+            TestConsulta.pdf
+            TestDocument
+            TestDocument.pdf
+            TestExpressioBooleana
+            TestExpressioBooleana.pdf
+            TestIndexAutor
+            TestIndexAutor.pdf
+            TestIndexDocumentsAutor
+            TestIndexDocumentsAutor.pdf
+            TestIndexExpressionsBooleanes
+            TestIndexExpressionsBooleanes.pdf
+        1.2 utils
+Aquest directori conte els executables dels tests de la carpeta utils i els pdf amb la documentacio corresponent.
+            TestKeyP
+            TestKeyP.pdf
+            TestNode
+            TestPairP
+            TestPairP.pdf
+            TestSortedValue
+            TestSortedValue.pdf
+            TestTree
+            TestTrie
+            TestTrie.pdf
+
+DOCUMENTS RELLEVANTS TERCERA ENTREGA:
+quan es compila es creen els directoris domini, Excepcions, persistencia, presentacio i utils amb els executables

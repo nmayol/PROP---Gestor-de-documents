@@ -1,0 +1,13 @@
+domini
+domini.Controladors
+Exceptions
+persistencia
+persistencia.accesObjects
+presentacio
+test.domini
+test.domini.controladors
+test.persistencia
+test.persistencia.stubs
+test.presentacio
+test.utils
+utils

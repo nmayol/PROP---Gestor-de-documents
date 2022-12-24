@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DOCS/Javadoc/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/DOCS/Javadoc/type-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/DOCS/Javadoc/package-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+INDEX:
+
+    1. DOCS
+Aquest directori conte nomes la documentacio de la primera entrega.
+
+    2. EXE
+Aquest directori conte carpetes amb totes les classes, tests i excepcions compilats. A mes, tambe conte un fitxer amb un joc de proves pel driver.
+
+    3. FONTS
+Aquest directori conte diferents packages amb el codi de la implementacio de totes les classes, tests i excepcions. A mes, conte un make.sh per compilar tots .java i executar el driver.
+
+    4. LIB
+Aquest directori conte les llibreries externes per poder realitzar els tests.

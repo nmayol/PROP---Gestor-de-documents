@@ -1,0 +1,4 @@
+soc el nom de l'autor
+soc el titol del doc
+i jo soc el contingut del document. Com veieu puc posar salts de linia
+i es guarden correctament.

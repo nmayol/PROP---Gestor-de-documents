@@ -1,0 +1,147 @@
+GRUP 14.4
+MANUAL D'US BASIC DE LA APLICACIO
+
+Joan Vazquez Gonzalez
+Paula Grau Dominguez
+Neus Mayol Alcaraz
+Tom s Calaf Marti
+
+joan.vazquez.gonzalez
+paula.grau
+neus.mayol
+tomas.calaf.marti
+
+
+
+1. Aplicacio
+Aplicacio d'un gestor de documents multiusuari en el que cada usuari mitjancant una sessio activa,
+tracta amb certs documents carregant-ne de nous, modificant, llistant o eliminant-ne d'existents. 
+Consisteix en poder visualitzar certs documents mantenint-ne en tot moment la integritat de la 
+aplicacio aixo com la de les dades.
+
+2. Llegenda utilitzada
+
+3. Manual de funcionament
+
+3.1. Iniciar Sessio Usuari
+La primera pantalla que veiem quan iniciem el programa es la Pantalla Iniciar Sessio, des de la qual l'usuari pot entrar
+a l'aplicacio fent servir les seves dades (nom i contrasenya).
+En primer lloc cal crear un usuari des de la Pantalla Registrar Usuari, a la qual podem accedir clicant el boto "Registra't"
+de la pantalla actual. (veure apartat Crear Usuari)
+Un cop creat, inserim el nom i contrasenya als camps indicats i apretem el boto "Iniciar Sessio".
+D'aquesta manera accedim a la Pantalla Principal.
+
+
+3.2. Crear Usuari
+Es crea un usuari des de la Pantalla Registrar Usuari. 
+Cal inserir un nom d'un usuari al camp corresponent que no existeixi previament. A continuacio, escrivim la contrasenya als dos
+camps indicats per assegurar-nos de no cometre errors al escriure-la. Un cop fet aix  apretem el boto "ok" per acceptar les dades
+i tornem automaticament a la Pantalla Iniciar Sessio.
+En cas que ens trobem a la Pantalla Registrar Usuari i no volguem crear-ne un, podem tornar a la pantalla anterior mitjan ant el boto
+"Tornar Enrere".
+
+3.3. Eliminar Usuari
+S'elimina un usuari des de la Pantalla Eliminar Usuari. En aquesta es llisten tots els usuaris existents al moment a l'aplicacio.
+Podem seleccionar el que ens interessi eliminar i apareix un pop-up que ens demana la seva contrasenya. Si la inserim correctament,
+ aquest desapareix de la llista d'usuaris de la pagina. Un cop eliminat, apareix un missatge informat de l'accio realitzada.
+En cas que vulguem tornar a la pantalla anterior ho podem fer clicant el bot  "Tornar Enrere".Tancar Sessio Usuari
+Es pot tancar sessio de l'usuari des de la Pantalla Principal.
+Hi ha un boto adalt a la dreta amb una icona. Quan es clica salta un pop-up per confirmar l'accio que es vol realitzar.
+En cas afirmatiu, es tanca la sessio i es torna a la Pantalla Iniciar Sessio.
+
+3.4. Carregar Document/s
+Es carrega un o varis documents des de la Pantalla Principal.
+Entre els botons amb possibles accions a realitzar hi ha "Carregar". Quan es clica aquest boto, s'obre la Pantalla Carregar Document.
+En aquesta apareix un boto "Afegeix un document" que et permet accedir als directoris de l'ordinador per escollir els fitxers per carregar.
+ Un cop fet aixo, es llista a la pantalla dels documents que volem afegir. Podem apretar aquest boto i seleccionar tants fitxers com desitgem.
+En cas que accidentalment en triem un que finalment decidim no carregar, el podem seleccionar i desfer la carrega. Quan ja tenim afegits a la
+pantalla tots els documents que volem carregar, apretem el boto "Carrega". Es llisten tots a la Pantalla Principal.
+En cas que es vulgui cancelar tota la operacio, tambe hi ha un boto de "Cancel" per poder fer-ho.
+
+3.5. Obrir Document
+S'obre un document des de la Pantalla Principal.
+Entre els botons de les possibles accions a realitzar hi ha "Obrir". Quan es clica aquest boto, s'obre la Pantalla Dades Obrir.
+En aquesta, podem introduir el titol i autor del document que volem obrir. Si previament a clicar el boto haviem seleccionat un document,
+les dades d'aquest apareixen automaticament a la pantalla en questio. Un cop l'identificador del document ha estat especificat, s'apreta el boto "ok" i
+s'obre la Pantalla Obrir Document. Tambe es pot cancelar l'opcio apretant el boto "Cancel".
+D'altra banda, tambe podem accedir directament a la pantalla de visualitzar el document fent doble click sobre aquest en la llista de la Pantalla Principal.
+
+3.6. Eliminar Document
+S'elimina un document des de la Pantalla Principal.
+Entre els botons de les possibles accions a realitzar hi ha "Eliminar". Quan es clica el boto, s'obre la Pantalla Dades Eliminar. En aquesta,
+podem introduir el titol i autor del document que volem eliminar. Si previament a clicar el boto haviem seleccionat un document de la pantalla,
+les dades d'aquest apareixen automaticament a la pantalla en questio. Un cop l'identificador del document ha estat especificat, s'apreta el boto "ok" i
+ salta un pop-up que demana la confirmacio per eliminar el document. Es pot cancelar l'accio amb el boto "Cancel" o acceptar amb el boto "ok".
+ Tambe es pot cancelar l'opcio des de la Pantalla Dades Eliminar apretant el boto "Cancel".
+Si s'ha eliminar el document correctament, desapareix de la Pantalla Principal.
+
+3.7. Modificar Document
+Es modifica un document des de la Pantalla Principal.
+Entre els botons de les possibles accions a realitzar hi ha "Modificar". Quan es clica el boto, s'obre la Pantalla Dades Modificar.
+En aquesta, podem introduir el titol i autor del document que volem eliminar. Si previament a clicar el boto, haviem seleccionat un document de la pantalla,
+les dades d'aquest apareixen automaticament a la pantalla
+
+3.8. Recuperar Document
+Hi ha dos maneres de recuperar un document:
+- Des de la pantalla principal seleccionant el document de la llista que es vol recuperar i apretar el boto "RECUPERAR" .
+- Des del document obert, apretant el boto "Recuperar" del panell d'opcions lateral.
+S'obrira una pestanya amb un boto "Navega", que permetra a l'usuari escollir la ruta, el nom i el format del fitxer. Per confirmar l'accio l'usuari
+haura de premer el boto OK.
+
+
+3.9. Llistar Autors per Prefix
+Per llistar autors segons el seu prefix comencem situant-nos a la pantalla principal. A l'extrem inferior esquerre hi ha un desplegable 
+on podem escollir la opcio de llistar els autors segons el seu prefix. Seleccionant aquesta opcio ens apareixer una pestanya que ens
+permetra escriure el prefix, tambe podem seleccionar-lo des de  l'historial, consultable a partir del desplegable que te el mateix camp de text.
+En acabat apretem el boto "OK" per iniciar la cerca. Llavors s'obrira una nova pantalla amb la llista d'autors resultants.
+En cas que estiguem interessats en veure el llistat de documents d'un dels autors podem fer-ho fent doble clic a l'autor de la llista desitjat.
+
+3.10. Llistar Documents Autor
+Per llistar els documents d'un autor hem de situar-nos a la pantalla principal i obrir el desplegable de la part inferior esquerra d'aquest. 
+Alla seleccionar l'opcio "Autor". Alla s'obrira una finestra preguntant de quin autor en volem mostrar documents. Escrivim el nom de l'autor desitjat
+i apretem OK, llavors s'obrira una pantalla mostrant els resultats.
+A l'esquerra de la pantalla trobarem la llista de documents de l'autor, que podrem previsualitzar seleccionant-los. 
+A la dreta tenim un menu d'accions rapides per poder llistar els documents semblants, obrir un document o be eliminar-lo.
+
+3.11. Llistar Documents Semblants
+Per llistar els documents semblants a un document donat hem de situar-nos a la pantalla principal i obrir el desplegable de la part inferior esquerra. 
+Seleccionant l'opcio semblants s'obrira una finestra preguntant de quin document en volem trobar els semblants, quants documents semblants volem trobar i
+el criteri segons volem calcular la semblansa. Escrivim el nom del document desitjat i introduim el numero de documents semblants, despres apretem OK.
+ Llavors s'obrira una pantalla mostrant els resultats.
+A l'esquerra de la pantalla trobarem la llista de documents semblants al document triat, que podem previsualitzar seleccionant-los. 
+A la dreta tenim un menu d'accions rapides per tornar a fer una cerca de documents semblants, obrir un document de la llista o be eliminar-lo.Llistar
+Documents per Expressio Booleana
+L'usuari pot entrar a aquesta pestanya seleccionant-la des del  desplegable que hi ha al  lateral esquerre de la pantalla principal.
+Havent entrat a la pestanya se li mostraran les expressions booleanes al panell esquerre. A la part inferior hi ha un boto per afegir-ne una de nova,
+i un altre boto per esborrar l'historial.
+A la banda dreta hi ha el panell de documents. Per fer una cerca hem d'afegir primer l'expressio booleana apretant el boto "Afegir expressio" la cerca
+s'haura afegit al panell esquerre. Per mostrar el resultat d'una cerca haurem de seleccionar l'expressio desitjada del panell esquerre, i els resultats es veuen al panell dret.
+En cas que volguessim veure un dels documents resultants, el podem seleccionar a la llista i apreta el boto "Obrir" de l'extrem inferior dret.
+
+3.12. Llistar Documents per Paraules Clau
+Per llistar els documents segons les seves paraules clau hem de comencar des de la pantalla principal seleccionant l'opcio "Paraules clau" del
+desplegable de la part inferior esquerra de la pantalla. Al fer la seleccio s'obrira una pantalla preguntant quina paraula clau es vol buscar,
+i quants documents es volen mostrar en resultat. Omplint els camps respectius i apretant el boto "OK" de confirmacio avansarem a la seguent pantalla de cerca.
+Al panell esquerre de la pantalla ens apareixera el resultat de la cerca. Seleccionant un dels resultats podrem previsualitzar el document en questio.
+Si volem obrir el document seleccionat ho podem fer mitjancant el boto "Obrir" del panell dret.
+Al panell dret tambe tenim altres accions rapides, com per exemple llistar els documents semblants al que tinguem seleccionat a la llista.
+3.13. Tancar Aplicacio
+Abans de sortir hem de tancar la sessio. Podem tancar la sessio prement el boto amb la icona de sortir, situat a l'extrem superior dret de la pantalla principal.
+Quan l'apretem apareixera un missatge per tal de confirmar l'accio de tancar sessio. Apretant "OK" tancarem la sessio i ens situarem a la pantalla inicial del gestor,
+que podrem tancar facilement apretant la creueta vermella de l'extrem superior dret de la pantalla.
+
+
+
+4. FAQS
+
+- Que pasa si quan estic modificant un document, tanco la sessio?
+Per defecte, el nostre gestor de documents, per tal de mantenir la integritat de les dades, requereix d'una confirmacio per tal de modificar permanentment
+les dades. En cas de tancar la aplicacio, es cancela l'accio que s'estava realitzant mantenint les dades inicials del document.
+
+- Que pasa si recupero un document i no li assigno cap format?
+El gestor assignara el format txt per defecte.
+
+- Puc crear un document des de zero?
+No, no es un editor de text. Tot i aixo, l'alternativa que et proposem es carregar un document irrellevant que tinguis en el teu directori i modificar-lo
+amb les dades que desitgis. Recorda: nomes tenim tres formats disponibles (txt, xml i prop).
+

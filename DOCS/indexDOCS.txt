@@ -1,0 +1,17 @@
+INDEX DOCS:
+
+Aquest directori conte:
+ - DOCUMENTACIO PRIMERA ENTREGA: document pdf amb la documentacio de la metodologia, els casos d'us, les classes, les estructures de dades i algorismes i les llibreries externes utilitzades.
+ - DOCUMENTACIO SEGONA ENTREGA: document pdf que explica els atributs i metodes de cada classe de la capa de domini, persistencia i presentacio. A més, explica les estructures de dades i algorismes i les millores respecte la primera entrega
+ - JOCS D'ASSAIG: document pdf amb els jocs de prova de l'aplicacio
+ - MANUAL D'US: document pdf per saber com fer servir l'aplicacio
+ - REPARTIMENT DE CLASSES: document pdf amb el repartiment de les classes
+ - MANUAL D'ÚS BÀSIC DE L'APLICACIÓ: document txt per saber fer servir l'aplicació des del botó ajuda
+ Tres imatges en format .png dels diagrames de les tres classes:
+ - Capa de domini.png
+ - Capa de persistencia.png
+ - Capa de presentacio.png
+ Per acabar, hi ha tres fitxers de prova en els tres formats diferents que accepta el nostre gestor de documents:
+ - prova.prop
+ - prova.txt
+ - prova.xml
