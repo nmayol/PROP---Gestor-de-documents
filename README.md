@@ -2,8 +2,8 @@
 
 ## Membres: ##
 * Calaf Martí, Tomàs
-* Grau Dominguez, Paula
-* Mayol Alcaraz, Neus
+* [Grau Dominguez, Paula](https://github.com/paulagrauu)
+* [Mayol Alcaraz, Neus](https://github.com/nmayol)
 * Vazquez Gonzalez, Joan
 
 ## Instruccions execució terminal ##
